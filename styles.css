@@ -1,0 +1,53 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  line-height: 2;
+}
+
+/*.customers{
+  display: flex;
+  flex-flow: wrap;
+}*/
+
+h3{
+  margin-top: 2%;
+  text-align: center;
+}
+
+.customer-body{
+  display: flex;
+  flex-flow: wrap;
+  margin: 3%;
+  margin-left: 6%;
+  align-items: baseline;
+}
+.customer-div{
+  flex: 1 1 22%;
+  text-align: center;
+  margin-right: 2%;
+  margin-bottom: 7%;
+}
+
+.customer-pic{
+  width: 100%;
+  margin: 2%;
+}
+
+.customer-name{
+  text-transform: uppercase;
+  font-weight: bold;
+  display: inline-block;
+  border-bottom: green solid 1px;
+}
+
+.customer-email{
+  color: gray;
+  text-transform: uppercase;
+}
+
+.customer-address{
+  display: flex;
+  flex-flow: column;
+  margin-top: 2%;
+}
